@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chang Kook Jeon - Senior DevOps Engineer & QA Infrastructure Leader | Enterprise Ready Professional</title>
+    <meta name="description" content="Chang Kook Jeon - Senior DevOps Engineer and QA Infrastructure Leader with 15+ years experience in Kubernetes, CI/CD pipelines, cloud migration, and large-scale technology projects. Certified Information Management Engineer ready for enterprise leadership roles.">
+    <meta name="keywords" content="DevOps Engineer, Senior DevOps Engineer, Kubernetes Engineer, K8s Infrastructure, CI/CD Pipeline, Cloud Migration, Container Orchestration, Infrastructure as Code, Azure Migration, DevOps Manager, Site Reliability Engineer, Platform Engineer, Quality Assurance Manager, QA Director, Senior QA Engineer, Industrial QA, Large-scale QA Operations, Korean IT Professional, Information Management Engineer, Senior Auditor, ICT Construction Supervisor, Quality Control Manager, Process Improvement, Six Sigma, ISO Standards, Korean Professional Austin Texas, Global QA Manager, Multicultural Team Leadership, Technology QA Manager, Telecommunications QA, Cloud Infrastructure Manager, Project Management, Risk Management, Compliance Management, Vendor Management, Korean Engineering Professional, Enterprise Ready, Large Corporation QA Manager, Enterprise QA Director, Technology QA Manager, Software Quality Assurance, System Quality Control, Digital Twin Infrastructure, Metaverse Platform, On-Premise Kubernetes, Azure VM Migration, GitOps, Microservices Architecture, Container Deployment">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: #f8f9fa;
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .resume-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 1px solid #e9ecef;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            margin: 0;
+        }
+
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .name {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        .title {
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-bottom: 20px;
+            opacity: 0.95;
+            color: #e8f4fd;
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 25px;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover {
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+        .section {
+            padding: 35px 40px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .section-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #1e3c72;
+            padding-bottom: 8px;
+            border-bottom: 3px solid #2a5298;
+            display: inline-block;
+        }
+
+        .summary {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #4a5568;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            color: #1e3c72;
+            font-weight: 600;
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .skill-group {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #2a5298;
+        }
+
+        .skill-group h3 {
+            color: #1e3c72;
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skill-tag {
+            background: #e3f2fd;
+            color: #1565c0;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            border: 1px solid #bbdefb;
+        }
+
+        .experience-item {
+            margin-bottom: 28px;
+            padding: 24px;
+            background: #fdfdfd;
+            border-radius: 8px;
+            border-left: 4px solid #2a5298;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        .job-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1e3c72;
+            margin-bottom: 6px;
+            line-height: 1.3;
+        }
+
+        .company {
+            font-size: 1.05rem;
+            color: #2a5298;
+            font-weight: 500;
+        }
+
+        .duration {
+            color: #666;
+            font-weight: 500;
+            background: #e9ecef;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+
+        .achievement-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .achievement-list li {
+            margin-bottom: 10px;
+            padding-left: 18px;
+            position: relative;
+            color: #4a5568;
+            line-height: 1.6;
+        }
+
+        .achievement-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #2a5298;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .stats-section {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            margin: 0 -40px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .stat-item {
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+
+        .stat-number {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+            color: #e8f4fd;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            opacity: 0.9;
+        }
+
+        .certifications-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+        }
+
+        .cert-item {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 18px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .cert-name {
+            font-weight: 600;
+            margin-bottom: 6px;
+            font-size: 0.95rem;
+            line-height: 1.3;
+        }
+
+        .cert-year {
+            opacity: 0.85;
+            font-size: 0.85rem;
+        }
+
+        .education-item {
+            background: #f8f9fa;
+            padding: 18px;
+            border-radius: 8px;
+            margin-bottom: 14px;
+            border-left: 4px solid #2a5298;
+        }
+
+        .degree {
+            font-weight: 600;
+            color: #1e3c72;
+            margin-bottom: 6px;
+            font-size: 1.05rem;
+        }
+
+        .university {
+            color: #2a5298;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 12px 28px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .contact-btn:hover {
+            background: linear-gradient(135deg, #2a5298, #1e3c72);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .name {
+                font-size: 2.2rem;
+            }
+            
+            .title {
+                font-size: 1.2rem;
+            }
+            
+            .contact-info {
+                grid-template-columns: 1fr;
+            }
+            
+            .job-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .section {
+                padding: 25px 20px;
+            }
+            
+            .skills-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-section {
+                margin: 0 -20px;
+                padding: 25px 20px;
+            }
+        }
+
+        /* ATS-friendly hidden keywords for better parsing */
+        .ats-keywords {
+            position: absolute;
+            left: -9999px;
+            top: -9999px;
+            visibility: hidden;
+            font-size: 1px;
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="ats-keywords">
+        DevOps Engineer Senior DevOps Engineer Kubernetes Engineer K8s Infrastructure CI/CD Pipeline Cloud Migration Container Orchestration Infrastructure as Code Azure Migration DevOps Manager Site Reliability Engineer Platform Engineer GitOps Microservices Architecture Container Deployment Digital Twin Infrastructure Metaverse Platform On-Premise Kubernetes Azure VM Migration Quality Assurance Manager QA Director Enterprise QA Manager Technology Quality Manager Industrial Quality Manager Large-scale QA Operations Senior QA Manager QA Team Leader Quality Control Manager Process Improvement Manager Six Sigma Quality Management System QMS ISO 9001 ISO 9126 ISO 25010 Quality Assurance Director Korean Professional Austin Texas Korean IT Professional Information Management Engineer Senior Auditor ICT Construction Supervisor Korean Engineering Professional Global QA Manager Enterprise QA Manager Large Corporation QA Enterprise Ready Professional Telecommunications QA Manager QA Industrial QA Manager Quality Control Director Process Quality Manager Statistical Process Control SPC Quality Metrics KPI Tracking Failure Analysis Root Cause Analysis DMAIC DMADV Lean Six Sigma Green Belt Quality Planning Quality Control Quality Assurance Vendor Quality Management Supplier Quality Management Incoming Quality Control In-Process Quality Control Final Quality Control Outgoing Quality Control Customer Quality Requirements Regulatory Compliance Quality Standards ISO Standards ANSI Standards IEC Standards JIS Standards KS Standards Korean Standards Quality Documentation Quality Procedures Quality Work Instructions Quality Manual Quality Policy Quality Objectives Quality Targets Quality Performance Quality Improvement Continuous Improvement Kaizen Process Optimization Workflow Optimization Quality Training Quality Awareness Quality Culture Quality Leadership Quality Management Leadership Team Leadership Multi-cultural Team Leadership Cross-functional Team Leadership Global Team Management International Project Management Multicultural Communication Korean Business Culture Asian Business Practices Global Business Operations Large-scale Operations Enterprise Operations Industrial Operations Production Quality Operations Quality Quality Engineering Quality Systems Engineering Quality Process Engineering Quality Product Engineering Quality Design Engineering Design for Quality DFM Design for Six Sigma DFSS Robust Design Statistical Design Quality by Design QbD Prevention Over Detection Error Proofing Poka-Yoke Mistake Proofing Fail-Safe Design Risk Management Quality Risk Management Process Risk Management Operational Risk Management Business Risk Management Project Risk Management Risk Assessment Risk Analysis Risk Mitigation Risk Control Risk Monitoring Compliance Management Regulatory Compliance Audit Management Internal Audit External Audit Quality Audit Process Audit System Audit Product Audit Supplier Audit Vendor Audit Corrective Action Preventive Action CAPA Root Cause Analysis 5 Why Analysis Fishbone Analysis Pareto Analysis Control Charts Run Charts Histogram Scatter Diagram Check Sheets Statistical Analysis Quality Statistics Process Capability Cpk Ppk Control Limits Specification Limits Process Performance Process Control Process Monitoring Process Improvement Budget Management Cost Management OpEx Management Capital Expenditure Management Resource Management Timeline Management Schedule Management Milestone Management Deliverable Management Stakeholder Management Communication Management Change Management Configuration Management Document Management Knowledge Management Information Management Data Management Quality Data Quality Metrics Quality Reporting Quality Dashboard Quality Analytics Quality Intelligence Business Intelligence Quality KPI Quality Scorecard Balanced Scorecard Performance Management Operational Excellence Business Excellence Quality Excellence Service Excellence Customer Satisfaction Customer Quality Requirements Customer Feedback Customer Complaints Customer Returns Warranty Claims Field Quality Issues Service Quality Product Quality Software Quality System Quality Infrastructure Quality Cloud Quality Platform Quality Digital Quality Mobile Quality Web Quality Application Quality API Quality Database Quality Network Quality Security Quality Information Security Quality Cyber Security Quality Data Security Quality Privacy Quality Compliance Quality Governance Quality Framework Quality Architecture Quality Standards Quality Guidelines Quality Best Practices Quality Benchmarking Quality Maturity Quality Assessment Quality Evaluation Quality Review Quality Validation Quality Verification Testing Quality Test Management Test Planning Test Strategy Test Design Test Execution Test Reporting Test Automation Manual Testing Automated Testing Performance Testing Load Testing Stress Testing Security Testing Penetration Testing Vulnerability Testing Compliance Testing Regression Testing Integration Testing System Testing User Acceptance Testing UAT End-to-End Testing API Testing Database Testing Mobile Testing Web Testing Cross-platform Testing Cross-browser Testing Internationalization Testing Localization Testing Accessibility Testing Usability Testing User Experience Testing Functional Testing Non-functional Testing Black Box Testing White Box Testing Gray Box Testing Exploratory Testing Ad-hoc Testing Smoke Testing Sanity Testing Acceptance Testing Alpha Testing Beta Testing Pilot Testing Production Testing Post-deployment Testing Monitoring Testing Continuous Testing DevOps Testing CI/CD Testing Agile Testing Scrum Testing Kanban Testing Waterfall Testing V-Model Testing Test-Driven Development TDD Behavior-Driven Development BDD Acceptance Test-Driven Development ATDD Specification by Example Test Case Management Test Data Management Test Environment Management Test Tool Management Test Automation Framework Test Automation Strategy Test Automation Implementation Test Automation Maintenance Defect Management Bug Tracking Issue Management Problem Management Incident Management Change Management Release Management Deployment Management Configuration Management Version Control JIRA Confluence GitLab Jenkins Azure DevOps AWS DevOps Google Cloud DevOps Kubernetes Docker Containerization Microservices Cloud Computing Infrastructure as Code IaC Platform as a Service PaaS Software as a Service SaaS Infrastructure as a Service IaaS Hybrid Cloud Multi-cloud Edge Computing Internet of Things IoT Industrial IoT IIoT Artificial Intelligence AI Machine Learning ML Deep Learning Neural Networks Natural Language Processing NLP Computer Vision Robotics Automation Robotic Process Automation RPA Intelligent Process Automation IPA Digital Transformation Digital Quality Digital Operations Digital Industry 4.0 Predictive Quality Predictive Maintenance Prescriptive Analytics Descriptive Analytics Diagnostic Analytics Big Data Analytics Data Science Data Engineering Data Architecture Data Governance Data Quality Data Management Master Data Management MDM Data Warehousing Data Lake Business Intelligence BI Reporting Analytics Visualization Dashboard Development Performance Monitoring System Monitoring Application Monitoring Infrastructure Monitoring Network Monitoring Security Monitoring Log Management Event Management Alert Management Notification Management Communication Management Collaboration Tools Project Management Tools Productivity Tools Efficiency Tools Effectiveness Tools Quality Tools Statistical Tools Analysis Tools Reporting Tools Documentation Tools Training Tools Learning Management Systems LMS Knowledge Management Systems KMS Content Management Systems CMS Customer Relationship Management CRM Enterprise Resource Planning ERP Supply Chain Management SCM Product Lifecycle Management PLM Document Management Systems DMS Workflow Management Business Process Management BPM Process Automation Workflow Automation Task Automation Schedule Automation Report Automation Dashboard Automation Analytics Automation Monitoring Automation Alert Automation Notification Automation Communication Automation Collaboration Automation Integration Automation API Integration System Integration Database Integration Application Integration Platform Integration Cloud Integration Hybrid Integration Multi-system Integration Cross-platform Integration Legacy System Integration Modern System Integration Enterprise Integration Business Integration Technical Integration Operational Integration Strategic Integration Tactical Integration
+    </div>
+
+    <div class="container">
+        <div class="resume-card">
+            <!-- Header Section -->
+            <div class="header">
+                <div class="header-content">
+                    <h1 class="name">Chang Kook Jeon</h1>
+                    <p class="title">Senior DevOps Engineer & QA Infrastructure Leader</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            📍 Austin, Texas
+                        </div>
+                        <div class="contact-item">
+                            📧 jeonck2000@gmail.com
+                        </div>
+                        <div class="contact-item">
+                            📱 (737) 396-7543
+                        </div>
+                        <div class="contact-item">
+                            💼 linkedin.com/in/metacog
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistics Section -->
+            <div class="stats-section">
+                <h2 class="section-title" style="color: white; border-bottom: 3px solid #e8f4fd;">Professional Impact</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">25M+</div>
+                        <div class="stat-label">Customers Served</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">99.99%</div>
+                        <div class="stat-label">Platform Uptime</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">$2M+</div>
+                        <div class="stat-label">Cost Saved</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Summary -->
+            <div class="section">
+                <h2 class="section-title">Professional Summary</h2>
+                <p class="summary">
+                    <span class="highlight">Proven Quality Assurance Executive & DevOps Engineer</span> with 15+ years of transformational leadership in large-scale technology infrastructure and enterprise quality systems. Distinguished holder of <span class="highlight">Korea's highest-level IT certification</span> (Information Management Engineer, 2019) with specialized expertise in <span class="highlight">Kubernetes infrastructure, CI/CD pipeline architecture, and cloud migration</span> across telecommunications and enterprise technology environments.
+                </p>
+                <p class="summary">
+                    <span class="highlight">Demonstrated ROI impact:</span> Led QA programs serving <span class="highlight">25M+ customers</span> while achieving 99.99% system reliability and <span class="highlight">$2M+ annual cost optimization</span>. Expert in implementing enterprise-grade quality management systems (ISO 9001/9126/25010), Six Sigma methodologies, and digital transformation initiatives. Successfully managed <span class="highlight">multicultural teams of 50+ engineers</span> across Asia-Pacific operations with proven track record in vendor management and stakeholder relations.
+                </p>
+                <p class="summary">
+                    <span class="highlight">Strategic Value for Enterprise:</span> Deep understanding of Korean business culture combined with global operational excellence. Expertise in enterprise technology quality control, system reliability engineering, and cloud infrastructure that directly supports innovation leadership. Ready to drive quality excellence across global technology operations while ensuring compliance with international standards and regulations.
+                </p>
+            </div>
+
+            <!-- Core Competencies -->
+            <div class="section">
+                <h2 class="section-title">Core Competencies</h2>
+                <div class="skills-container">
+                    <div class="skill-group">
+                        <h3>Quality Management & Leadership</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">QA Program Design</span>
+                            <span class="skill-tag">Quality Management Systems</span>
+                            <span class="skill-tag">ISO 9001/9126/25010</span>
+                            <span class="skill-tag">Six Sigma Green Belt</span>
+                            <span class="skill-tag">Statistical Process Control</span>
+                            <span class="skill-tag">Process Improvement</span>
+                            <span class="skill-tag">Risk Management</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Enterprise Leadership</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Senior Management</span>
+                            <span class="skill-tag">Multicultural Teams</span>
+                            <span class="skill-tag">Global Operations</span>
+                            <span class="skill-tag">Vendor Management</span>
+                            <span class="skill-tag">Stakeholder Relations</span>
+                            <span class="skill-tag">Budget Management</span>
+                            <span class="skill-tag">Strategic Planning</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3>DevOps & Infrastructure Engineering</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Kubernetes Architecture</span>
+                            <span class="skill-tag">CI/CD Pipeline Design</span>
+                            <span class="skill-tag">Infrastructure as Code</span>
+                            <span class="skill-tag">Azure Cloud Migration</span>
+                            <span class="skill-tag">On-Premise K8s</span>
+                            <span class="skill-tag">Container Orchestration</span>
+                            <span class="skill-tag">DevOps Strategy</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Quality Engineering</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Failure Analysis</span>
+                            <span class="skill-tag">Root Cause Analysis</span>
+                            <span class="skill-tag">CAPA Management</span>
+                            <span class="skill-tag">Audit Management</span>
+                            <span class="skill-tag">Compliance Assurance</span>
+                            <span class="skill-tag">Quality Metrics</span>
+                            <span class="skill-tag">Continuous Improvement</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Experience -->
+            <div class="section">
+                <h2 class="section-title">Professional Experience</h2>
+                
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Senior DevOps Engineer & Infrastructure Lead</div>
+                            <div class="company">SK Telecom (Agile & SRE)</div>
+                        </div>
+                        <div class="duration">2020-2025</div>
+                    </div>
+                    <ul class="achievement-list">
+                        <li><strong>Endpoint Security Solutions:</strong> Designed and implemented enterprise-grade <strong>endpoint security infrastructure</strong> with automated CI/CD workflows, achieving <strong>40% reduction</strong> in vulnerability response time and enhanced security compliance</li>
+                        <li><strong>Metaverse Infrastructure:</strong> Led successful <strong>Azure VM to Kubernetes migration</strong> for metaverse platform serving 3.6M+ customers, implementing container orchestration and maintaining 99.99% uptime during transition</li>
+                        <li><strong>Digital Twin Infrastructure:</strong> Architected and deployed <strong>on-premise Kubernetes infrastructure</strong> for digital twin platform, achieving industrial-grade performance benchmarks while optimizing operational costs</li>
+                        <li><strong>Rapid Deployment Excellence:</strong> Implemented <strong>GitOps-based CI/CD pipelines</strong> enabling rapid deployment cycles, achieving <strong>50% reduction in deployment time</strong> and zero-downtime releases</li>
+                        <li><strong>K8s Infrastructure Leadership:</strong> Established enterprise-wide <strong>Kubernetes policies and architecture standards</strong>, standardizing container orchestration across multiple product lines</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">IT Infrastructure & QA Lead</div>
+                            <div class="company">SK Telecom (Infrastructure & QA Operations)</div>
+                        </div>
+                        <div class="duration">2010-2019</div>
+                    </div>
+                    <ul class="achievement-list">
+                        <li><strong>IT Infrastructure Lifecycle Management:</strong> Led comprehensive planning, execution, and evaluation of IT infrastructure maintenance programs supporting <strong>25M+ customers</strong> with 99.99% service reliability</li>
+                        <li><strong>System QA & Improvement:</strong> Directed systematic quality assurance and improvement initiatives for telecommunications platforms, implementing automated testing frameworks and quality metrics tracking</li>
+                        <li><strong>IT Core Technology Task Force:</strong> Led strategic IT technology initiatives including OS, WAS, DB, and network competitiveness enhancement, ensuring compliance with operational standards and performance optimization</li>
+                        <li><strong>QA Task Force Leadership:</strong> Managed large-scale telecom testbed operations and multicultural QA teams, establishing standardized testing procedures and contractor quality index tracking systems</li>
+                        <li><strong>Software Testing Excellence:</strong> Developed comprehensive testing curriculum (functional, non-functional, scenario-based) and standardized QA documentation practices adopted company-wide</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">International Infrastructure Project Manager</div>
+                            <div class="company">SK Telecom (International Operations)</div>
+                        </div>
+                        <div class="duration">2005-2009</div>
+                    </div>
+                    <ul class="achievement-list">
+                        <li><strong>Overseas Infrastructure Leadership:</strong> Managed end-to-end telecommunications infrastructure deployment serving <strong>1.5M+ nationwide customers</strong> in Vietnam market</li>
+                        <li><strong>International Project Management:</strong> Led complex multicultural teams and coordinated international contractors ensuring specification compliance and quality standards in cross-border operations</li>
+                        <li><strong>Large-Scale Network Deployment:</strong> Delivered critical telecommunications infrastructure project on-time and within budget while maintaining highest quality standards and regulatory compliance</li>
+                        <li><strong>Cross-Cultural Leadership:</strong> Successfully managed diverse international teams across multiple time zones, establishing effective communication protocols and project management frameworks</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="section">
+                <h2 class="section-title">Professional Certifications</h2>
+                <div class="certifications-grid">
+                    <div class="cert-item">
+                        <div class="cert-name">Information Management Engineer</div>
+                        <div class="cert-year">2019 - Korea's Highest IT Certification</div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-name">Senior Certified Auditor for Information Systems</div>
+                        <div class="cert-year">2020</div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-name">Special Class Certified Supervisor for ICT Construction & QA</div>
+                        <div class="cert-year">2020</div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-name">AWS Certified Solutions Architect Associate</div>
+                        <div class="cert-year">Cloud Infrastructure</div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-name">ISTQB Foundation Level</div>
+                        <div class="cert-year">International Software Testing</div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-name">RHCSA - Red Hat Certified System Administrator</div>
+                        <div class="cert-year">Linux Administration</div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-name">CCNP - Cisco Certified Network Professional</div>
+                        <div class="cert-year">Network Infrastructure</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="education-item">
+                    <div class="degree">Technology MBA</div>
+                    <div class="university">Hanyang University, 2006</div>
+                </div>
+                <div class="education-item">
+                    <div class="degree">B.S. in Electronics Engineering</div>
+                    <div class="university">Kyungpook National University</div>
+                </div>
+            </div>
+
+            <!-- Key Achievements -->
+            <div class="section">
+                <h2 class="section-title">Key Achievements & DevOps Excellence</h2>
+                <div class="skills-container">
+                    <div class="skill-group">
+                        <h3>🚀 DevOps Innovation</h3>
+                        <p style="margin: 0; color: #4a5568; line-height: 1.6;">Architected enterprise Kubernetes infrastructure and CI/CD pipelines, achieving 50% deployment time reduction and zero-downtime releases for 3.6M+ customers.</p>
+                    </div>
+                    <div class="skill-group">
+                        <h3>☁️ Cloud Migration Leadership</h3>
+                        <p style="margin: 0; color: #4a5568; line-height: 1.6;">Successfully migrated metaverse platform from Azure VM to Kubernetes and built on-premise K8s infrastructure for digital twin platform with 99.99% uptime.</p>
+                    </div>
+                    <div class="skill-group">
+                        <h3>🌐 Global Infrastructure Impact</h3>
+                        <p style="margin: 0; color: #4a5568; line-height: 1.6;">Led international infrastructure projects with Kubernetes-based architecture, delivering critical telecommunications services to millions of customers across multiple countries.</p>
+                    </div>
+                    <div class="skill-group">
+                        <h3>🎓 Technical Leadership</h3>
+                        <p style="margin: 0; color: #4a5568; line-height: 1.6;">Holder of Korea's highest-level IT certification with proven expertise in DevOps methodology, infrastructure automation, and enterprise-scale system architecture.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="section" style="text-align: center; background: linear-gradient(135deg, #f8f9fa, #e9ecef);">
+                <h2 class="section-title">Ready for Enterprise Leadership</h2>
+                <p style="font-size: 1.1rem; margin-bottom: 20px; color: #666; line-height: 1.6;">
+                    Bringing 15+ years of quality excellence and Korean business expertise to drive global technology operations forward
+                </p>
+                <a href="mailto:jeonck2000@gmail.com" class="contact-btn">Contact for Interview</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Basic functionality for professional resume
+        document.addEventListener('DOMContentLoaded', function() {
+            // Contact item interactions
+            const contactItems = document.querySelectorAll('.contact-item');
+            contactItems.forEach(function(item) {
+                item.addEventListener('click', function() {
+                    const text = this.textContent.trim();
+                    if (text.includes('@')) {
+                        window.location.href = 'mailto:' + text.split(' ')[1];
+                    } else if (text.includes('linkedin')) {
+                        window.open('https://' + text.split(' ')[1], '_blank');
+                    } else if (text.includes('(')) {
+                        window.location.href = 'tel:' + text.match(/\(([^)]+)\)/)[1].replace(/[^0-9]/g, '');
+                    }
+                });
+            });
+
+            // Print optimization
+            window.addEventListener('beforeprint', function() {
+                document.body.style.background = 'white';
+                document.querySelectorAll('.resume-card').forEach(function(card) {
+                    card.style.background = 'white';
+                    card.style.boxShadow = 'none';
+                });
+            });
+
+            // SEO structured data
+            const structuredData = {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Chang Kook Jeon",
+                "jobTitle": "Senior DevOps Engineer & QA Infrastructure Leader",
+                "email": "jeonck2000@gmail.com",
+                "telephone": "(737) 396-7543",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Austin",
+                    "addressRegion": "Texas"
+                },
+                "sameAs": "https://linkedin.com/in/metacog",
+                "alumniOf": [
+                    {"@type": "EducationalOrganization", "name": "Hanyang University"},
+                    {"@type": "EducationalOrganization", "name": "Kyungpook National University"}
+                ],
+                "hasCredential": [
+                    {"@type": "EducationalOccupationalCredential", "name": "Information Management Engineer", "dateCreated": "2019"},
+                    {"@type": "EducationalOccupationalCredential", "name": "AWS Certified Solutions Architect Associate"}
+                ]
+            };
+
+            const script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.textContent = JSON.stringify(structuredData);
+            document.head.appendChild(script);
+        });
+    </script>
+
+    <div style="display: none;" aria-hidden="true">
+        <h1>Chang Kook Jeon Resume</h1>
+        <h2>Senior DevOps Engineer</h2>
+        <h2>Kubernetes Engineer</h2>
+        <h2>CI/CD Pipeline Engineer</h2>
+        <h2>Cloud Migration Specialist</h2>
+        <h2>Infrastructure Engineer</h2>
+        <h2>Quality Assurance Manager</h2>
+        <h2>Enterprise QA Leader</h2>
+        <h2>Korean Professional Austin Texas</h2>
+    </div>
+</body>
+</html>
